@@ -18,7 +18,8 @@ php ./bin/panglognxia.php http:start
 ```
 php ./9200/bin/panglognxia.php rpc:start
 ```
-3. 访问查看控制态输出
+
+3.访问查看控制台输出
 ```
 http://127.0.0.1:9501/index/index
 ```
@@ -27,7 +28,7 @@ http://127.0.0.1:9501/index/index
 1.http路由解析，这里是模仿的Swift 框架，路由是通过注解解析而成
 
 解析源码参考 /framework/Panglongxia/Core/Annotation.php,
-当然这里代码较为粗糙，耦合度较高,也并没做预防判断,同一写死为GET请求
+当然这里代码较为粗糙，耦合度较高,也并没做预防判断,统一写死为GET请求
 ```
 /**
  * Class IndexController
