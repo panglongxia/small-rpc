@@ -1,0 +1,19 @@
+{
+  "description": "panglognxia framework",
+  "name": "panglognxia",
+  "keywords": [
+    "php",
+    "swoole",
+    "panglongxia"
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Panglongxia\\": "framework/Panglongxia"
+    }
+  },
+  "require": {
+    "php": ">=7.0",
+    "ext-swoole":">=4.0"
+  }
+}
